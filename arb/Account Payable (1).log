@@ -1,0 +1,60 @@
+Log File C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Account Payable (1)\Account Payable (1).log Opened at 14:01:01 on 27-May-2025
+I don't understand the command you just entered
+@ IMPORT OPENEXCEL TO AP_Trans_2021 FILE "C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Account Payable (1).xlsx" TABLE "AP_Trans_2021" SERVER "LOCAL" FLAT "AP_Trans_2021.FIL" 
+@ IMPORT OPENEXCEL TO VendorMaster FILE "C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Account Payable (1).xlsx" TABLE "VendorMaster" SERVER "LOCAL" FLAT "VendorMaster.FIL" 
+@ IMPORT OPENEXCEL TO VendorMaster FILE "C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Account Payable (1).xlsx" TABLE "VendorMaster" SERVER "LOCAL" FLAT "VendorMaster.FIL"
+@ OPEN VendorMaster
+  4 fields activated
+Log File C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Account Payable (1)\Account Payable (1).log Opened at 14:11:41 on 27-May-2025
+@ OPEN AP_Trans_2021
+  6 fields activated
+@ OPEN VendorMaster
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  4 fields activated
+@ OPEN AP_Trans_2021
+Closing Table VendorMaster (Table 0) and all active fields
+  6 fields activated
+@ OPEN VendorMaster
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  4 fields activated
+'C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Account Payable (1)\Sheet1.FIL' deleted.
+'' deleted.
+@ IMPORT OPENEXCEL TO Sheet1 FILE "C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Cash Disbursement.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Sheet1.FIL" 
+@ OPEN Sheet1 TABLE 1
+  4 fields activated
+@ OPEN VendorMaster TABLE 1
+Closing Table Sheet1 (Table 1) and all active fields
+  4 fields activated
+@ OPEN Sheet1 TABLE 1
+Closing Table VendorMaster (Table 1) and all active fields
+  4 fields activated
+@ OPEN VendorMaster TABLE 1
+Closing Table Sheet1 (Table 1) and all active fields
+  4 fields activated
+@ OPEN Sheet1 TABLE 1
+Closing Table VendorMaster (Table 1) and all active fields
+  4 fields activated
+@ OPEN AP_Trans_2021 TABLE 1
+Closing Table Sheet1 (Table 1) and all active fields
+  6 fields activated
+@ OPEN Sheet1 TABLE 1
+Closing Table AP_Trans_2021 (Table 1) and all active fields
+  4 fields activated
+@ QUIT
+Closing Table Sheet1 (Table 1) and all active fields
+Closing Table VendorMaster (Table 0) and all active fields
+(1).log Opened at 14:13:44 on 27-May-2025
+@ QUIT
+Log File C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Anastasya Miranda Lumban Gaol\Account Payable (1).log Opened at 14:18:14 on 27-May-2025
+@ QUIT
+e C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Anastasya Miranda Lumban Gaol\Account Payable (1).log Opened at 14:18:23 on 27-May-2025
+@ OPEN AP_Trans_2021
+  6 fields activated
+@ OPEN AP_Trans_2021
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  6 fields activated
+@ OPEN AP_Trans_2021
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  6 fields activated
+@ QUIT
+Closing Table AP_Trans_2021 (Table 0) and all active fields

@@ -1,0 +1,42 @@
+Log File C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Anastasya Miranda Lumban Gaol\Anastasya Miranda Lumban Gaol_12030122140281.log Opened at 14:19:18 on 27-May-2025
+@ OPEN AP_Trans_2021
+  6 fields activated
+@ OPEN Sheet1
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  4 fields activated
+@ OPEN VendorMaster
+Closing Table Sheet1 (Table 0) and all active fields
+  4 fields activated
+@ OPEN Sheet1
+Closing Table VendorMaster (Table 0) and all active fields
+  4 fields activated
+@ OPEN AP_Trans_2021
+Closing Table Sheet1 (Table 0) and all active fields
+  6 fields activated
+@ OPEN VendorMaster
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  4 fields activated
+@ OPEN AP_Trans_2021
+Closing Table VendorMaster (Table 0) and all active fields
+  6 fields activated
+@ IMPORT OPENEXCEL TO Sheet12 FILE "C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Cash Disbursement.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Sheet12.FIL" 
+@ OPEN Sheet12 TABLE 1
+  4 fields activated
+@ OPEN Sheet1 TABLE 1
+Closing Table Sheet12 (Table 1) and all active fields
+  4 fields activated
+@ OPEN Sheet12 TABLE 1
+Closing Table Sheet1 (Table 1) and all active fields
+  4 fields activated
+@ CLOSE
+Closing Table Sheet12 (Table 1) and all active fields
+@ SET TABLE AP_Trans_2021
+@ DELETE FORMAT Sheet12
+Data file 'C:\Users\akuntansi\Documents\Anastasya Miranda Lumban Gaol_12030122140281\Anastasya Miranda Lumban Gaol\Sheet12.FIL' deleted.
+Format 'Sheet12' deleted.
+View 'Sheet12' deleted.
+@ OPEN VendorMaster
+Closing Table AP_Trans_2021 (Table 0) and all active fields
+  4 fields activated
+@ QUIT
+Closing Table VendorMaster (Table 0) and all active fields
